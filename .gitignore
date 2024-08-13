@@ -26,6 +26,12 @@ coverage
 /target/
 /gen/schemas
 
+# next.js
+/.next/
+/out/
+
+# production
+/build
 
 # Build Outputs
 .next/
@@ -42,3 +48,7 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

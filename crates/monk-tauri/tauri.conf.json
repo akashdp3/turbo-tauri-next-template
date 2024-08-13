@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "identifier": "com.tauri.dev",
   "build": {
-    "frontendDist": "../../apps/desktop/dist",
+    "frontendDist": "../../apps/desktop/build",
     "devUrl": "http://localhost:3000",
-    "beforeDevCommand": "pnpm dev",
-    "beforeBuildCommand": "pnpm build"
+    "beforeDevCommand": "pnpm dev:internal-tauri",
+    "beforeBuildCommand": "pnpm build:desktop -- --mode development"
   },
   "app": {
     "windows": [

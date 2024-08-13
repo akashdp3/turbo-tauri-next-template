@@ -3,8 +3,9 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
     "dev:desktop": "pnpm tauri dev",
+    "dev:internal-tauri": "turbo watch --filter @monk/desktop dev",
+    "build:desktop": "turbo run --filter @monk/desktop build",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
