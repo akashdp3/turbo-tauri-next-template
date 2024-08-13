@@ -21,6 +21,12 @@ coverage
 # Vercel
 .vercel
 
+# Rust
+# will have compiled files and executables
+/target/
+/gen/schemas
+
+
 # Build Outputs
 .next/
 out/

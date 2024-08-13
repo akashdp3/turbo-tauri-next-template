@@ -1,0 +1,5 @@
+[workspace]
+members = ["crates/monk-tauri"]
+
+[workspace.dependencies]
+monk-tauri = { path = "crates/monk-tauri" }
